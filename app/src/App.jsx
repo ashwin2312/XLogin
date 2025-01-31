@@ -23,7 +23,7 @@ export default function App() {
       {submitFail && <p>Invalid username or password</p>}
 
       {submitPass ? (
-        <p>Welcome {username}!</p>
+        <p>Welcome user!</p>
       ) : (
         <form action="" onSubmit={handleSubmit}>
           <label htmlFor="username">Username:</label>
