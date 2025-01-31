@@ -26,22 +26,22 @@ export default function App() {
         <p>Welcome {username}!</p>
       ) : (
         <form action="" onSubmit={handleSubmit}>
-          <label htmlFor="">Username:</label>
+          <label htmlFor="username">Username:</label>
           <input
             type="text"
-            name=""
-            id=""
+            name="username"
+            id="username"
             placeholder="username"
             required
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
           <br />
-          <label htmlFor="">Password:</label>
+          <label htmlFor="password">Password:</label>
           <input
             type="password"
-            name=""
-            id=""
+            name="password"
+            id="password"
             placeholder="password"
             required
             value={password}
